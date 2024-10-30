@@ -1,0 +1,49 @@
+/* Forms */
+.frm_pro_form {
+	margin-bottom: 0 !important;
+}
+
+.frm_pro_form fieldset {
+	padding-bottom: 0px !important;
+}
+
+.frm_pro_form .frm_button_submit {
+	margin-bottom: 0 !important;
+}
+
+/* Video Embeds */
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* List Pages Widget */
+ul.led-child-pages {
+	margin: 0 !important;
+	list-style-type: none !important;
+}
+
+ul.led-child-pages > li {
+	margin-top:1px solid lightgrey;
+	font-weight:bold;
+}
+
+ul.led-child-pages > li > ul {
+	font-size:0.9em;
+}
+
+ul.led-child-pages ul {
+	margin: 0 0 0 0.5em !important;
+	list-style-type: none !important;
+}
